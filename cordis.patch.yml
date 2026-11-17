@@ -1,0 +1,10 @@
+# 本 bundle 的 Loader 层：把窗口状态插件插入 profile 组合树。
+#
+# 需要改默认值时，在 profile 的 cordis.patch.yml 里写同 id 的条目覆盖：
+#
+#   - id: window-state
+#     config:
+#       storageKey: 'dsh-window-state:v1'
+- insert:
+    - id: window-state
+      name: 'dsh-window-state'

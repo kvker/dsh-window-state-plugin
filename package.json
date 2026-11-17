@@ -1,0 +1,56 @@
+{
+  "name": "dsh-window-state",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: remember the desktop window position and size across launches.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "window",
+    "window-state",
+    "macos",
+    "electron"
+  ],
+  "author": "kvker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvker/dsh-window-state.git"
+  },
+  "homepage": "https://github.com/kvker/dsh-window-state#readme",
+  "bugs": {
+    "url": "https://github.com/kvker/dsh-window-state/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.1.0"
+  }
+}
