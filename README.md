@@ -2,7 +2,7 @@ Chinese | [English](README.en.md)
 
 # dsh-window-state
 
-[![CI](https://github.com/kvker/dsh-window-state/actions/workflows/ci.yml/badge.svg)](https://github.com/kvker/dsh-window-state/actions/workflows/ci.yml)
+[![CI](https://github.com/kvker/dsh-window-state-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/kvker/dsh-window-state-plugin/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 DeepSeek Harness 桌面端插件：记住窗口上次的位置和尺寸，下次启动自动恢复，不再回到默认的 1280×820。
@@ -30,7 +30,7 @@ DeepSeek Harness 桌面端插件：记住窗口上次的位置和尺寸，下次
 
 ```sh
 # 从 GitHub 安装
-dsh plugin --profile desktop add git+https://github.com/kvker/dsh-window-state.git
+dsh plugin --profile desktop add git+https://github.com/kvker/dsh-window-state-plugin.git
 
 # 或从本地目录（开发时用，pnpm 会建 link）
 dsh plugin --profile desktop add ~/Documents/deepseek-harness/plugins/dsh-window-state

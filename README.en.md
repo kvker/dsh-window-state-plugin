@@ -2,7 +2,7 @@
 
 # dsh-window-state
 
-[![CI](https://github.com/kvker/dsh-window-state/actions/workflows/ci.yml/badge.svg)](https://github.com/kvker/dsh-window-state/actions/workflows/ci.yml)
+[![CI](https://github.com/kvker/dsh-window-state-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/kvker/dsh-window-state-plugin/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) desktop plugin that remembers the last window
@@ -33,7 +33,7 @@ Requires the DeepSeek Harness desktop app (which ships the `dsh` CLI).
 
 ```sh
 # from GitHub
-dsh plugin --profile desktop add git+https://github.com/kvker/dsh-window-state.git
+dsh plugin --profile desktop add git+https://github.com/kvker/dsh-window-state-plugin.git
 
 # or from a local checkout (pnpm links it)
 dsh plugin --profile desktop add ~/Documents/deepseek-harness/plugins/dsh-window-state

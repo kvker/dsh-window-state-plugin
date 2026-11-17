@@ -30,11 +30,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kvker/dsh-window-state.git"
+    "url": "git+https://github.com/kvker/dsh-window-state-plugin.git"
   },
-  "homepage": "https://github.com/kvker/dsh-window-state#readme",
+  "homepage": "https://github.com/kvker/dsh-window-state-plugin#readme",
   "bugs": {
-    "url": "https://github.com/kvker/dsh-window-state/issues"
+    "url": "https://github.com/kvker/dsh-window-state-plugin/issues"
   },
   "engines": {
     "node": ">=22"
