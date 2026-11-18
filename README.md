@@ -31,6 +31,8 @@ DeepSeek Harness 桌面端插件：记住窗口上次的位置和尺寸，下次
 ```sh
 # 从 GitHub 安装
 dsh plugin --profile desktop add git+https://github.com/kvker/dsh-window-state-plugin.git
+# 等价写法
+dsh plugin --profile desktop add github:kvker/dsh-window-state-plugin
 
 # 或从本地目录（开发时用，pnpm 会建 link）
 dsh plugin --profile desktop add ~/Documents/deepseek-harness/plugins/dsh-window-state-plugin

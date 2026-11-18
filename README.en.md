@@ -34,6 +34,8 @@ Requires the DeepSeek Harness desktop app (which ships the `dsh` CLI).
 ```sh
 # from GitHub
 dsh plugin --profile desktop add git+https://github.com/kvker/dsh-window-state-plugin.git
+# equivalent
+dsh plugin --profile desktop add github:kvker/dsh-window-state-plugin
 
 # or from a local checkout (pnpm links it)
 dsh plugin --profile desktop add ~/Documents/deepseek-harness/plugins/dsh-window-state-plugin
