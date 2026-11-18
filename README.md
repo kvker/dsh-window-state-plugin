@@ -1,6 +1,6 @@
 Chinese | [English](README.en.md)
 
-# dsh-window-state
+# dsh-window-state-plugin
 
 [![CI](https://github.com/kvker/dsh-window-state-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/kvker/dsh-window-state-plugin/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -33,7 +33,7 @@ DeepSeek Harness 桌面端插件：记住窗口上次的位置和尺寸，下次
 dsh plugin --profile desktop add git+https://github.com/kvker/dsh-window-state-plugin.git
 
 # 或从本地目录（开发时用，pnpm 会建 link）
-dsh plugin --profile desktop add ~/Documents/deepseek-harness/plugins/dsh-window-state
+dsh plugin --profile desktop add ~/Documents/deepseek-harness/plugins/dsh-window-state-plugin
 ```
 
 本包声明了 `dsh.bundle.patch`，CLI 会把它作为 bundle 层追加到 profile 并启用。
@@ -42,7 +42,7 @@ dsh plugin --profile desktop add ~/Documents/deepseek-harness/plugins/dsh-window
 卸载：
 
 ```sh
-dsh plugin --profile desktop remove dsh-window-state
+dsh plugin --profile desktop remove dsh-window-state-plugin
 ```
 
 ## 使用
@@ -74,7 +74,7 @@ dsh plugin --profile desktop remove dsh-window-state
 | `minWidth` / `minHeight` | `520` / `600` | 与 Electron 主进程一致的最小尺寸。 |
 | `saveIntervalMs` | `1000` | 轮询保存间隔。 |
 | `restoreDelayMs` | `400` | 窗口显示后再补一次恢复的延迟。 |
-| `stateDir` | `~/.dsh/window-state` | 诊断文件目录。 |
+| `stateDir` | `~/.dsh/window-state-plugin` | 诊断文件目录。 |
 
 ## 排查
 

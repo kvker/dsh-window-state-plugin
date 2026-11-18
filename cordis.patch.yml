@@ -7,4 +7,4 @@
 #       storageKey: 'dsh-window-state:v1'
 - insert:
     - id: window-state
-      name: 'dsh-window-state'
+      name: 'dsh-window-state-plugin'

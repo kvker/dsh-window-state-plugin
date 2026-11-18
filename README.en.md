@@ -1,6 +1,6 @@
 [Chinese](README.md) | English
 
-# dsh-window-state
+# dsh-window-state-plugin
 
 [![CI](https://github.com/kvker/dsh-window-state-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/kvker/dsh-window-state-plugin/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -36,7 +36,7 @@ Requires the DeepSeek Harness desktop app (which ships the `dsh` CLI).
 dsh plugin --profile desktop add git+https://github.com/kvker/dsh-window-state-plugin.git
 
 # or from a local checkout (pnpm links it)
-dsh plugin --profile desktop add ~/Documents/deepseek-harness/plugins/dsh-window-state
+dsh plugin --profile desktop add ~/Documents/deepseek-harness/plugins/dsh-window-state-plugin
 ```
 
 The package declares `dsh.bundle.patch`, so the CLI adds it as a bundle layer and enables it.
@@ -45,7 +45,7 @@ The package declares `dsh.bundle.patch`, so the CLI adds it as a bundle layer an
 Uninstall:
 
 ```sh
-dsh plugin --profile desktop remove dsh-window-state
+dsh plugin --profile desktop remove dsh-window-state-plugin
 ```
 
 ## Usage
@@ -77,7 +77,7 @@ Override any default in `~/.dsh/profiles/desktop/cordis.patch.yml` by row id (`w
 | `minWidth` / `minHeight` | `520` / `600` | Minimum size, matching the Electron main process. |
 | `saveIntervalMs` | `1000` | Save polling interval. |
 | `restoreDelayMs` | `400` | Extra restore attempt after the window becomes visible. |
-| `stateDir` | `~/.dsh/window-state` | Directory for the diagnostic marker. |
+| `stateDir` | `~/.dsh/window-state-plugin` | Directory for the diagnostic marker. |
 
 ## Troubleshooting
 
