@@ -1,6 +1,6 @@
 {
   "name": "dsh-window-state-plugin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DeepSeek Harness plugin: remember the desktop window position and size across launches.",
   "type": "module",
   "main": "lib/index.js",

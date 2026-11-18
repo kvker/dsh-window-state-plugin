@@ -6,10 +6,13 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-18
+
 ### Changed
 
-- Renamed the package to `dsh-window-state-plugin` to match the repository. The stored rectangle keeps the existing
-  `dsh-window-state:v1` key, so saved window positions survive the rename.
+- Renamed the package from `dsh-window-state` to `dsh-window-state-plugin` to match the repository. The stored
+  rectangle keeps the existing `dsh-window-state:v1` key, so saved window positions survive the rename.
+- Diagnostics moved to `~/.dsh/window-state-plugin/loaded.json`.
 
 ## [0.1.0] - 2026-11-17
 
