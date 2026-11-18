@@ -6,6 +6,10 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Changed
+
+- README install section leads with the npm package now that it is published.
+
 ## [0.2.0] - 2026-11-18
 
 ### Changed
@@ -13,6 +17,7 @@ All notable changes to this project are documented here. The format follows
 - Renamed the package from `dsh-window-state` to `dsh-window-state-plugin` to match the repository. The stored
   rectangle keeps the existing `dsh-window-state:v1` key, so saved window positions survive the rename.
 - Diagnostics moved to `~/.dsh/window-state-plugin/loaded.json`.
+- Published to npm as `dsh-window-state-plugin`.
 
 ## [0.1.0] - 2026-11-17
 

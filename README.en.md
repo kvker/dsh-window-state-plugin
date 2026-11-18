@@ -3,6 +3,7 @@
 # dsh-window-state-plugin
 
 [![CI](https://github.com/kvker/dsh-window-state-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/kvker/dsh-window-state-plugin/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/dsh-window-state-plugin.svg)](https://www.npmjs.com/package/dsh-window-state-plugin)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) desktop plugin that remembers the last window
@@ -32,13 +33,11 @@ the window rectangle with `window.moveTo()` / `window.resizeTo()`.
 Requires the DeepSeek Harness desktop app (which ships the `dsh` CLI).
 
 ```sh
-# from GitHub
-dsh plugin --profile desktop add git+https://github.com/kvker/dsh-window-state-plugin.git
-# equivalent
-dsh plugin --profile desktop add github:kvker/dsh-window-state-plugin
+# from npm (recommended)
+dsh plugin --profile desktop add dsh-window-state-plugin
 
-# or from a local checkout (pnpm links it)
-dsh plugin --profile desktop add ~/Documents/deepseek-harness/plugins/dsh-window-state-plugin
+# or straight from GitHub (newest commit, no release wait)
+dsh plugin --profile desktop add github:kvker/dsh-window-state-plugin
 ```
 
 The package declares `dsh.bundle.patch`, so the CLI adds it as a bundle layer and enables it.
